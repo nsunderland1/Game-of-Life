@@ -36,7 +36,7 @@ int main() {
     cout << "Select a file: ";
     cin >> filename;
 	
-	//Reading initial configuration from file
+    //Reading initial configuration from file
     load_grid(filename.c_str());
     
     //Setting up graphics upon succesful file open
